@@ -24,7 +24,7 @@ nmcli dev wifi
 ## Notes
 It is possible to opt an access point out of inclusion in Google Location services by appending the “_nomap” tag to the wireless access point name (SSID) and then using Google Maps to establish a location fix while connected to the renamed AP.<sup>[3](https://support.google.com/maps/answer/1725632)</sup> Of course, in areas with dense wireless traffic, it might not be possible to change every AP within range thereby still allowing approximate geolocation based on other nearby BSSIDs.
 
-If you absolutely must expose a list of wireless access points around you, best practice would be to obfuscate *at least* the first three bytes of the BSSIDs, also known as the Organizationally Unique Identifier (OUI), which can additionally be used to find your wireless access point's vendor name / manufacturer.<sup>[4](https://www.adminsub.net/mac-address-finder)</sup>
+If you absolutely must expose a list of wireless access points around you, best practice would be to obfuscate *at least* the first three bytes of the BSSIDs, also known as the Organizationally Unique Identifier (OUI), which can additionally be used to enumerate your wireless access point's vendor name / manufacturer.<sup>[4](https://www.adminsub.net/mac-address-finder)</sup>
 
 ## References
 1. https://developers.google.com/maps/documentation/geolocation/overview
